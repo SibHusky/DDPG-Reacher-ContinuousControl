@@ -2,7 +2,7 @@
 
 ## The learning algorithm
 
-The basics of this algorithm is described in  
+The basics of this algorithm is described in https://arxiv.org/pdf/1509.02971.pdf
 
 The start values for the hyperparameters were taken from a similar project. 
 ---
@@ -47,39 +47,45 @@ The critic:
 
 ## Result and plots
 
-Episode 100  	Average100 Score: 0.11	Score: 0.00	
-Episode 200  	Average100 Score: 0.10	Score: 0.00	
-Episode 300	  Average100 Score: 0.14	Score: 0.00	
-Episode 400	  Average100 Score: 0.16	Score: 1.17	
-Episode 500  	Average100 Score: 0.18	Score: 0.12	
-Episode 600	  Average100 Score: 0.56	Score: 0.59	
-Episode 700	  Average100 Score: 1.06	Score: 2.09	
-Episode 800  	Average100 Score: 1.67	Score: 1.75	
-Episode 900	  Average100 Score: 3.44	Score: 2.80	
-Episode 1000	Average100 Score: 4.69	Score: 4.36	
-Episode 1100	Average100 Score: 5.70	Score: 6.06	
-Episode 1200	Average100 Score: 6.31	Score: 7.88	
-Episode 1300	Average100 Score: 6.58	Score: 5.63	
-Episode 1400	Average100 Score: 8.61	Score: 11.64
-Episode 1500	Average100 Score: 8.99	Score: 6.15	
-Episode 1600	Average100 Score: 7.07	Score: 6.10	
-Episode 1700	Average100 Score: 8.84	Score: 9.57	
-Episode 1800	Average100 Score: 8.76	Score: 21.59
-Episode 1900	Average100 Score: 12.16	Score: 20.66
-Episode 2000	Average100 Score: 16.84	Score: 20.17
-Episode 2100	Average100 Score: 16.45	Score: 11.29
-Episode 2200	Average100 Score: 16.47	Score: 8.43	
-Episode 2300	Average100 Score: 19.09	Score: 14.95
-Episode 2400	Average100 Score: 22.91	Score: 31.40
-Episode 2500	Average100 Score: 24.69	Score: 29.30
-Episode 2600	Average100 Score: 25.22	Score: 30.80
-Episode 2700	Average100 Score: 28.18	Score: 29.29
-Episode 2800	Average100 Score: 27.01	Score: 16.76
-Episode 2900	Average100 Score: 28.20	Score: 28.40
-Episode 3000	Average100 Score: 28.92	Score: 29.29
-Episode 3100	Average100 Score: 28.95	Score: 26.32
-Episode 3146	Average100 Score: 30.01	Score: 36.03
-Environment solved! 	Average100 Score: 30.01
+Episode 100  	Average100  Score: 0.11	Score: 0.00  
+Episode 200  	Average100 Score: 0.10	Score: 0.00  
+Episode 300  	Average100 Score: 0.14	Score: 0.00  
+Episode 400  	Average100 Score: 0.16	Score: 1.17  
+Episode 500  	Average100 Score: 0.18	Score: 0.00  
+Episode 600  	Average100 Score: 0.90	Score: 1.37  
+Episode 700  	Average100 Score: 1.88	Score: 2.83  
+Episode 800  	Average100 Score: 3.85	Score: 4.21  
+Episode 900	  Average100 Score: 6.12	Score: 5.68  
+Episode 1000	Average100 Score: 6.82	Score: 1.52  
+Episode 1100	Average100 Score: 7.26	Score: 7.25  
+Episode 1200	Average100 Score: 7.46	Score: 12.42  
+Episode 1300	Average100 Score: 8.19	Score: 8.09  
+Episode 1400	Average100 Score: 8.34	Score: 13.12  
+Episode 1500	Average100 Score: 8.17	Score: 8.54  
+Episode 1600	Average100 Score: 8.34	Score: 5.68  
+Episode 1700	Average100 Score: 10.50	Score: 12.22  
+Episode 1800	Average100 Score: 12.23	Score: 19.88  
+Episode 1900	Average100 Score: 12.65	Score: 14.54  
+Episode 2000	Average100 Score: 13.94	Score: 7.89  
+Episode 2100	Average100 Score: 14.23	Score: 11.00  
+Episode 2200	Average100 Score: 14.52	Score: 13.65  
+Episode 2300	Average100 Score: 15.29	Score: 13.55  
+Episode 2400	Average100 Score: 17.08	Score: 17.28  
+Episode 2500	Average100 Score: 18.20	Score: 10.92  
+Episode 2600	Average100 Score: 17.90	Score: 17.91  
+Episode 2700	Average100 Score: 20.05	Score: 22.55  
+Episode 2800	Average100 Score: 19.95	Score: 15.07  
+Episode 2900	Average100 Score: 22.48	Score: 22.10  
+Episode 3000	Average100 Score: 22.43	Score: 33.57  
+Episode 3100	Average100 Score: 24.27	Score: 23.81  
+Episode 3200	Average100 Score: 26.16	Score: 24.98  
+Episode 3300	Average100 Score: 26.95	Score: 39.64  
+Episode 3400	Average100 Score: 26.13	Score: 33.75  
+Episode 3500	Average100 Score: 25.51	Score: 26.91  
+Episode 3600	Average100 Score: 29.13	Score: 30.12  
+Episode 3626	Average100 Score: 30.00	Score: 26.37  
+Environment solved! 	Average100 Score: 30.00	Episodes: 3626
+
  
 
 <img src="https://github.com/SibHusky/DDPG-Reacher-ContinuousControl/blob/master/result_plot.png" width="480" height="270" />
