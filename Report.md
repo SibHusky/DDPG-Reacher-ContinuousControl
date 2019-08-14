@@ -97,3 +97,7 @@ Environment solved! 	Average100 Score: 30.00	Episodes: 3626
 
 ## Ideas for the future work
 - intensive hyperparameter tuning
+  (especially the epsilon_decay parameter --> dealing with the Ornstein-Uhlenbeck noise)
+- try D4PG
+- switch to the environment with 20 reacher and check out A3C/A2C
+  
