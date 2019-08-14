@@ -6,18 +6,18 @@ The basics of this algorithm is described in
 
 The start values for the hyperparameters were taken from a similar project. 
 ---
-EPSILON = 1.0  (strictly speaking no hyperparameter, hard coded)
-EPSILON_END = 0.001  (strictly speaking no hyperparameter, hard coded)
-EPSILON_DECAY = 0.99999  
+EPSILON = 1.0  (strictly speaking no hyperparameter, hard coded)  
+EPSILON_END = 0.001  (strictly speaking no hyperparameter, hard coded)  
+EPSILON_DECAY = 0.99999    
   
 buffer size = 1000000  
 batch_size = 265  
 Gamma = 0.99  
 Tau = 0.001  
 
-UPDATE_EVERY = 100 (Learning frequence, in that case: the learning process runs every 100 timesteps)
-UPDATE_TIMES = 10 (how often the weights are updated by the learning process)
-(The learning starts when the memory buffer is half-full)
+UPDATE_EVERY = 100 (Learning frequence, in that case: the learning process runs every 100 timesteps)  
+UPDATE_TIMES = 10 (how often the weights are updated by the learning process)  
+(The learning starts when the memory buffer is half-full)  
  
 
 The neural networks
