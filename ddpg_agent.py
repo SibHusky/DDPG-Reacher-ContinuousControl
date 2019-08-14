@@ -157,7 +157,7 @@ class Agent():
         if self.update_every_x == 0:
             # start learning when buffer is half-full
             if len(self.RepMem) > int(self.buffer_size/2):
-                for _ in range(7):
+                for _ in range(int(self.update_times)):
                     sample_batch = self.RepMem.sample()
                     #print (sample_batch)
                     #print("----------")
