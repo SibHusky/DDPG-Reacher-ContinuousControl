@@ -28,7 +28,7 @@ The neural network
 
 ## Untrained vs trained agent
 
-| <img src="" width="480" height="270" /> | <img src="" width="480" height="270" />  |
+| <img src="https://github.com/SibHusky/DDPG-Reacher-ContinuousControl/blob/master/gifs/Reacher_untrained.gif" width="480" height="270" /> | <img src="https://github.com/SibHusky/DDPG-Reacher-ContinuousControl/blob/master/gifs/Reacher_trained.gif" width="480" height="270" />  |
 |---|---|
 
 ## Ideas for the future work
